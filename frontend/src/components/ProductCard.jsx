@@ -88,7 +88,7 @@ const ProductCard = ({ product }) => {
           Category - {product.category}
         </Heading>
 
-        <Text fontWeight="bold" fontSize="l" color={textColor} mb={1}>
+        <Text fontWeight="bold" fontSize="l" color={textColor} mb={0}>
           Description - {product.description}
         </Text>
 
@@ -116,7 +116,7 @@ const ProductCard = ({ product }) => {
       </Box>
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalContent>
-          <ModalHeader>Update Product</ModalHeader>
+          <ModalHeader>Update Problem</ModalHeader>
           <ModalCloseButton />
 
           <ModalBody>
